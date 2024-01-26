@@ -1,4 +1,4 @@
-FROM php:8.1.0-fpm-alpine
+FROM php:8.3.0-fpm-alpine
 
 # Install packages
 RUN apk add --update linux-headers
